@@ -1,5 +1,5 @@
 package com.bit2015.jblog.vo;
-
+//
 public class CommentsVo {
 	/*COMMENTS_NO NUMBER(10) NOT NULL ,
 	POST_NO NUMBER(10) NOT NULL,

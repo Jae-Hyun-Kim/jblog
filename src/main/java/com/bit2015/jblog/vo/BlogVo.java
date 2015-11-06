@@ -1,5 +1,5 @@
 package com.bit2015.jblog.vo;
-
+//
 public class BlogVo {
 	private Long blogNo;
 	private String title;
