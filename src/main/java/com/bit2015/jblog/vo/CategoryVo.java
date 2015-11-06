@@ -1,5 +1,5 @@
 package com.bit2015.jblog.vo;
-//
+
 public class CategoryVo {
 	private Long blogNo;
 	private String categoryNo;

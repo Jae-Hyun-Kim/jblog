@@ -1,10 +1,47 @@
 package com.bit2015.jblog.vo;
-//
+
 public class CommentsVo {
-	/*COMMENTS_NO NUMBER(10) NOT NULL ,
-	POST_NO NUMBER(10) NOT NULL,
-	CONTENT VARCHAR2(1000),
-	CREATED_DATE DATE,
 	private Long commentsNo;
-	private Long po*/
+	private Long postNo;
+	private String content;
+	private String createdDate;
+
+	public Long getCommentsNo() {
+		return commentsNo;
+	}
+
+	public void setCommentsNo(Long commentsNo) {
+		this.commentsNo = commentsNo;
+	}
+
+	public Long getPostNo() {
+		return postNo;
+	}
+
+	public void setPostNo(Long postNo) {
+		this.postNo = postNo;
+	}
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public String getCreatedDate() {
+		return createdDate;
+	}
+
+	public void setCreatedDate(String createdDate) {
+		this.createdDate = createdDate;
+	}
+
+	@Override
+	public String toString() {
+		return "CommentsVo [commentsNo=" + commentsNo + ", postNo=" + postNo
+				+ ", content=" + content + ", createdDate=" + createdDate + "]";
+	}
+
 }
